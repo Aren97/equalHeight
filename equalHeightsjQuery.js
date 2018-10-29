@@ -1,8 +1,10 @@
-var text_divs = $('block');
+var text_divs = $('div');
 
 if (text_divs) {
     function equalHeights (blocks) {
-        var ar_i, text_divs_height, max_chislo = 0;
+        var ar_i = 0;
+        var text_divs_height = 0;
+        var max_chislo = 0;
         var arr_max_height = new Array();
 
         while (ar_i<blocks.length) {
