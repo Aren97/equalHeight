@@ -11,7 +11,7 @@
 <script src="equalHeightsJs.js"></script>
 ```
 
-<p>Call function with blocks parametr</p>
+<p>Call function with one parametr as css selector of blocks</p>
 
 ```sh
 equalHeights('blocks')
